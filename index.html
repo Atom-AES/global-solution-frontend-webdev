@@ -4,130 +4,128 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Atom - Limpeza Inteligente ADS</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-
   <header>
     <nav class="navbar">
       <div class="logo"><a href="#hero">Atom</a></div>
       <ul class="nav-links">
-        <li><a href="#problema">Problema</a></li>
-        <li><a href="#tecnologia">Tecnologia</a></li>
-        <li><a href="#objetivos">Objetivos</a></li>
-        <li><a href="#publico">Público</a></li>
-        <li><a href="#beneficios">Benefícios</a></li>
-        <li><a href="#aplicacao">Aplicação</a></li>
+        <li><a href="#hero_problematica">Problema</a></li>
+        <li><a href="#hero_tecnologia">Tecnologia</a></li>
+        <li><a href="#hero_objetivos">Objetivos</a></li>
+        <li><a href="#hero_publico">Público</a></li>
+        <li><a href="#hero_beneficios">Benefícios</a></li>
+        <li><a href="#hero_aplicacao">Aplicação</a></li>
       </ul>
       <a href="#contato" class="cta-button">Saiba Mais</a>
     </nav>
   </header>
 
-  <section class="hero" id="hero">
-    <img src="./assets/src/img/hero.jpg" class="hero-video" alt="Equipe especializada em limpeza de painéis solares cobertos de poeira">
-    <div class="hero-overlay">
-      <h1>Diretamente do espaço!</h1>
-      <p>Esta tecnologia revolucionária foi desenvolvida pela Nasa para limpeza espacial.</p>
-      <p>E agora adaptamos essa inovação para a Terra.</p>
-      <a href="#problema" class="cta-button">Descubra como</a>
-    </div>
-  </section>
-
   <main>
-    <section id="problema" class="secao-conteudo">
-      <div class="texto">
-        <h2>O Problema</h2>
+    <section class="hero" id="hero_principal">
+      <img src="./assets/src/img/hero_principal.jpg" class="hero-image" alt="">
+      <div class="hero-overlay principal">
+        <h1>Diretamente do espaço!</h1>
+        <p>Esta tecnologia revolucionária foi desenvolvida pela Nasa para limpeza espacial.</p>
+        <p>E agora adaptamos essa inovação para a Terra.</p>
+        <a href="#tecnologia" class="cta-button">Descubra como</a>
+      </div>
+    </section>
+    <br>
+    <br>
+    <section class="hero" id="hero_problematica">
+      <img src="./assets/src/img/hero_problema.jpeg" class="hero-image" alt="">
+      <div class="hero-overlay problematica">
+        <h1>Problemática</h1>
         <p>O acúmulo de poeira em painéis solares e sistemas de ventilação reduz drasticamente a eficiência energética.</p>
         <p>A manutenção manual atual é custosa, ineficiente e muitas vezes inviável em áreas remotas.</p>
       </div>
-      <div class="imagem">
-        <img src="./assets/src/img/limpezaPaineisSolares.jpg" alt="Equipe especializada em limpeza de painéis solares cobertos de poeira">
+    </section>
+    <br>
+    <br>
+    <section class="hero cards" id="hero_tecnologia">
+      <img src="./assets/src/img/hero_tecnologia.jpeg" class="hero-image" alt="">
+      <div class="hero-overlay tecnologia">
+        <h1>Nossa Tecnologia</h1>
+        <p>Utilizamos o sistema EDS terrestre para gerar campos eletromagnéticos ajustáveis que repelem qualquer detrito.</p>
+        <p>O sistema integra sensores de luminosidade e comunicação via satélite para uma operação totalmente autônoma.</p>
+      </div>
+      <div class="divCards">
+        <div class="card">
+          <img src="" alt="Descrição da ideia">
+          <div class="overlay"></div>
+          <div class="content">
+              <h2>Campo Eletromagnético</h2>
+              <span>Sub</span>
+              <p>Espulsa a poeira usando campos eletromagnéticos</p>
+          </div>
+        </div>
+        <div class="card">
+            <img src="" alt="Descrição da ideia">
+            <div class="overlay"></div>
+            <div class="content">
+                <h2>Sensores de Luminosidade</h2>
+                <span>Sub</span>
+                <p>Identifica a luminosidade e aciona o sistema apenas quando necessário.</p>
+            </div>
+        </div>
+        <div class="card">
+          <img src="" alt="Descrição da ideia">
+          <div class="overlay"></div>
+          <div class="content">
+              <h2>Integração com Satélite</h2>
+              <span>Sub</span>
+              <p>Utiliza dados satelitais para otimizar a operação do sistema.</p>
+          </div>
+        </div>
       </div>
     </section>
+    <br>
+    <br>
 
-    <section id="tecnologia" class="secao-conteudo cards">
-        <div class="texto">
-          <h2>Nossa Tecnologia</h2>
-          <p>Utilizamos o sistema EDS terrestre para gerar campos eletromagnéticos ajustáveis que repelem qualquer detrito.</p>
-          <p>O sistema integra sensores de luminosidade e comunicação via satélite para uma operação totalmente autônoma.</p>
-        </div>
-        <div class="divCards">
-          <div class="card">
-            <img src="" alt="Descrição da ideia">
-            <div class="overlay"></div>
-            <div class="content">
-                <h2>Campo Eletromagnético</h2>
-                <span>Sub</span>
-                <p>Espulsa a poeira usando campos eletromagnéticos</p>
-            </div>
-          </div>
-          <div class="card">
-              <img src="" alt="Descrição da ideia">
-              <div class="overlay"></div>
-              <div class="content">
-                  <h2>Sensores de Luminosidade</h2>
-                  <span>Sub</span>
-                  <p>Identifica a luminosidade e aciona o sistema apenas quando necessário.</p>
-              </div>
-          </div>
-          <div class="card">
-            <img src="" alt="Descrição da ideia">
-            <div class="overlay"></div>
-            <div class="content">
-                <h2>Integração com Satélite</h2>
-                <span>Sub</span>
-                <p>Utiliza dados satelitais para otimizar a operação do sistema.</p>
-            </div>
-          </div>
-        </div>
-        
-    </section>
-
-    <section id="objetivos" class="secao-conteudo">
-      <div class="texto">
-        <h2>Objetivos</h2>
+    <section class="hero" id="hero_objetivos" >
+      <img src="./assets/src/img/hero_objetivos.jpeg" class="hero-image" alt="">
+      <div class="hero-overlay objetivos">
+        <h1>Objetivos</h1>
         <p>Maximizar a geração de energia limpa através da automatização da limpeza contínua dos equipamentos.</p>
         <p>Reduzir radicalmente os custos operacionais com um sistema analítico inteligente de acúmulo de poeira.</p>
       </div>
-      <div class="imagem">
-        <img src="./assets/src/img/objetivosAtomShield.jpg" alt="Gráfico mostrando aumento de eficiência e redução de custos">
-      </div>
     </section>
-
-    <section id="publico" class="secao-conteudo invertido">
-      <div class="texto">
-        <h2>Público-alvo</h2>
-        <p>Empresas de energia solar, indústrias pesadas e administradores de sistemas de ventilação em larga escala.</p>
-        <p>Focamos em operações que buscam sustentabilidade, otimização de recursos e redução de manutenção preventiva.</p>
-      </div>
-      <div class="imagem">
-        <img src="./assets/src/img/publicoAlvo.jpg" alt="Trabalhadores gerenciando uma usina solar de grande porte">
-      </div>
+    <br>
+    <br>
+    <section class="hero" id="hero_publico" >
+        <img src="./assets/src/img/hero_publico.jpeg" class="hero-image" alt="">
+        <div class="hero-overlay publico">
+          <h1>Público-alvo</h1>
+          <p>Empresas de energia solar, indústrias pesadas e administradores de sistemas de ventilação em larga escala.</p>
+          <p>Focamos em operações que buscam sustentabilidade, otimização de recursos e redução de manutenção preventiva.</p>
+        </div>
     </section>
+    <br>
+    <br>
 
-    <section id="beneficios" class="secao-conteudo">
-      <div class="texto">
-        <h2>Benefícios</h2>
+    <section class="hero" id="hero_beneficios">
+      <img src="./assets/src/img/hero_beneficios.jpeg" class="hero-image" alt="">
+      <div class="hero-overlay beneficios">
+        <h1>Benefícios</h1> 
         <p>Economia inteligente: desligamento automático noturno e preventivo durante chuvas rastreadas por satélite.</p>
         <p>Eficiência máxima garantida pela variação entre modos EDS, temperatura, acústica e limpeza por ar.</p>
       </div>
-      <div class="imagem">
-        <img src="./assets/src/img/beneficios.jpg" alt="Interface de controle mostrando economia de energia">
-      </div>
     </section>
+    <br>
+    <br>
 
-    <section id="aplicacao" class="secao-conteudo invertido">
-      <div class="texto">
-        <h2>Aplicação na Prática</h2>
+
+    <section class="hero" id="hero_aplicacao">
+      <img src="./assets/src/img/hero_aplicacao.jpeg" class="hero-image" alt="">
+      <div class="hero-overlay aplicacao">
+        <h1>Aplicação na Prática</h1>
         <p>O sistema monitora constantemente a densidade da poeira e cruza dados meteorológicos em tempo real.</p>
         <p>Se houver sujeira sem previsão de chuva, o modo de limpeza adequado é ativado instantaneamente.</p>
-      </div>
-
-      <div class="imagem">
-        <img src="./assets/src/img/aplicacao.jpg" alt="Esquema de um dia de funcionamento do sistema na fazenda solar">
       </div>
     </section>
   </main>
