@@ -3,425 +3,358 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Atom Home</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Atom — HOME</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-  <header class="cabecalho">
-    <nav class="nav-principal">
-      <div class="nav-principal__logo">
-        <a href="#hero-inicio" class="link-suave">Atom</a>
-      </div>
+  <!-- ══════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════ -->
+  <nav id="nav-site">
+    <a href="#problema" class="nav-logo">Atom</a>
+    <ul class="nav-links">
+      <li><a href="#problema">Problema</a></li>
+      <li><a href="#tecnologia">Tecnologia</a></li>
+      <li><a href="#objetivos">Objetivos</a></li>
+      <li><a href="#beneficios">Benefícios</a></li>
+      <li><a href="#aplicacao">Aplicação</a></li>
+      <li><a href="#publico">Público</a></li>
+      <li><a href="#equipe">Equipe</a></li>
+    </ul>
+    <a href="#cta" class="nav-cta">Saiba mais</a>
+  </nav>
 
-      <ul class="nav-principal__lista">
-        <li><a href="#problema" class="nav-principal__item link-suave">Problema</a></li>
-        <li><a href="#secao-tecnologia" class="nav-principal__item link-suave">Tecnologia</a></li>
-        <li><a href="#secao-objetivos" class="nav-principal__item link-suave">Objetivos</a></li>
-        <li><a href="#secao-publico" class="nav-principal__item link-suave">Público</a></li>
-        <li><a href="#secao-beneficios" class="nav-principal__item link-suave">Benefícios</a></li>
-        <li><a href="#secao-aplicacao" class="nav-principal__item link-suave">Aplicação</a></li>
-        <li><a href="#secao-equipe" class="nav-principal__item link-suave">Equipe</a></li>
-      </ul>
 
-      <a href="#rodape" class="btn-cta link-suave">Saiba mais</a>
-    </nav>
-  </header>
+  <!-- ══════════════════════════════════════
+       SEÇÃO 1 — PROBLEMA
+  ══════════════════════════════════════ -->
+  <section id="problema">
+    <div class="fundo"></div>
+    <div class="sobreposicao"></div>
+    <div class="degrade-topo"></div>
+    <div class="degrade-base"></div>
+    <div class="conteudo esquerda">
+      <span class="etiqueta">Seção I — O Problema</span>
+      <h2>Diretamente<br>do Espaço.</h2>
+      <p class="subtitulo">Uma tecnologia adaptada para seu uso.</p>
+      <div class="divisor"></div>
+      <p class="texto-corpo">Existe um inimigo invisível corroendo o seu investimento. Grão por grão, a poeira sufoca a geração de energia, derrubando a eficiência em até 30% sem que nenhum alarme dispare. A luz continua lá fora, mas o lucro deixa de existir. O problema não é a falta de sol. É a barreira que você deixa crescer diante dele.</p>
+    </div>
+  </section>
 
-  <section class="secao-hero" id="hero-inicio">
-    <img src="./assets/src/img/hero-principal-variacao2.jpg" class="secao-hero__fundo" alt="Planeta Terra visto do espaço" />
-    <div class="secao-hero__overlay">
-      <div class="secao-hero__conteudo">
-        <span class="tag">AES ADAPTATIVE ELETRODYNAMIC SHIELD</span>
-        <h1 class="secao-hero__titulo">Diretamente do espaço.</h1>
-        <p class="secao-hero__descricao">
-          A tecnologia utilizada em missões espaciais para proteção de equipamentos agora aplicada na eficiência energética terrestre.
-        </p>
-        <a href="#problema" id="button-problema">Descubra como</a>
+
+  <!-- ══════════════════════════════════════
+       SEÇÃO 2 — TECNOLOGIA
+  ══════════════════════════════════════ -->
+  <section id="tecnologia">
+    <div class="fundo"></div>
+    <div class="sobreposicao"></div>
+    <div class="degrade-topo"></div>
+    <div class="degrade-base"></div>
+    <div class="conteudo direita">
+      <span class="etiqueta">Seção II — A Solução</span>
+      <h2>AES</h2>
+      <p class="subtitulo">Adaptative Eletrodynamic Shield — nascido na Lua, adaptado para Terra</p>
+      <div class="divisor"></div>
+      <p class="texto-corpo">O Adaptative Eletrodynamic Shield foi originalmente desenvolvido para proteger instrumentos sensíveis de missões espaciais contra a deposição de partículas de poeira. Nossa equipe adaptou essa tecnologia eletrostática de ponta para Terra, pensando nas necessidades humanas. O intuito? Proteger painéis solares, eliminando o principal inimigo silencioso da geração fotovoltaica. Sem água, sem produtos químicos, sem interrupção.</p>
+      <div class="estatisticas">
+        <div>
+          <span class="valor-estat">30%</span>
+          <span class="rotulo-estat">Aumento de geração</span>
+        </div>
+        <div>
+          <span class="valor-estat">80%</span>
+          <span class="rotulo-estat">Redução de manutenção</span>
+        </div>
+        <div>
+          <span class="valor-estat">25+</span>
+          <span class="rotulo-estat">Anos de vida útil</span>
+        </div>
       </div>
     </div>
   </section>
 
-  <main class="conteudo-principal">
 
-    <section id="problema" class="secao-problema">
-      <div id="problema-conteudos">
-        <span class="tag">01 - PROBLEMA</span>
-        <h2 class="secao-titulo">O custo invisível da poeira</h2>
-        <p>
-          A poeira acumulada em superfícies expostas reduz desempenho, aumenta custos operacionais e exige manutenção constante.
-        </p>
-
-        <ul class="problema-stats">
-          <li class="problema-stats__item">
-            <h3>-40%</h3>
-            <span>Eficiência energética</span>
-            <small>perdida pelo acúmulo de poeira nas células fotovoltaicas.</small>
-          </li>
-          <li class="problema-stats__item">
-            <h3>10B</h3>
-            <span>Litros de água</span>
-            <small>desperdiçados por ano na limpeza manual de usinas.</small>
-          </li>
-          <li class="problema-stats__item">
-            <h3>US$ 5B</h3>
-            <span>Perda anual global</span>
-            <small>causada pela queda de desempenho dos painéis.</small>
-          </li>
-        </ul>
-      </div>
-
-      <div id="problema-imagem">
-        <img src="./assets/src/img/onda-eletromagnetica.avif" alt="Representação de ondas eletromagnéticas" />
-      </div>
-    </section>
-
-    <section id="secao-tecnologia" class="secao-tecnologia-banner">
-      <img src="./assets/src/img/lua.jpg" class="tecnologia-fundo" alt="Fundo tecnológico" />
-      <div class="tecnologia-overlay">
-        <div class="tecnologia-conteudo-direita">
-          <span class="tag">02 - TECNOLOGIA</span>
-          <h2 class="tecnologia-titulo">Do espaço, para sua casa.</h2>
-          <p class="tecnologia-descricao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptas aspernatur enim perspiciatis, sint in est dolorem libero soluta? Saepe!
-          </p>
-          <ul class="tecnologia-lista">
-            <li><strong>Sit amet:</strong> Lorem ipsum dolor sit amet.</li>
-            <li><strong>Dolor:</strong> Lorem ipsum dolor sit amet consectetur.</li>
-            <li><strong>Lorem:</strong> Lorem ipsum dolor sit amet consectetur.</li>
-          </ul>
+  <!-- ══════════════════════════════════════
+       SEÇÃO 3 — OBJETIVOS
+  ══════════════════════════════════════ -->
+  <section id="objetivos">
+    <div class="fundo"></div>
+    <div class="sobreposicao"></div>
+    <div class="degrade-topo"></div>
+    <div class="degrade-base"></div>
+    <div class="conteudo esquerda">
+      <span class="etiqueta">Seção III — Nossa Missão</span>
+      <h2>Objetivos</h2>
+      <p class="subtitulo">Energia limpa, sem concessões</p>
+      <div class="divisor"></div>
+      <p class="texto-corpo">Nossa missão é tornar a energia solar mais eficiente, acessível e sustentável. Desenvolvemos soluções que eliminam perdas invisíveis, ampliam o retorno de investimentos em geração distribuída e reduzem a pegada hídrica da manutenção fotovoltaica - levando para a Terra o mesmo rigor tecnológico das missões espaciais.</p>
+      <div class="estatisticas">
+        <div>
+          <span class="valor-estat">2030</span>
+          <span class="rotulo-estat">Meta de escala nacional</span>
+        </div>
+        <div>
+          <span class="valor-estat">500MW</span>
+          <span class="rotulo-estat">Capacidade protegida (alvo)</span>
+        </div>
+        <div>
+          <span class="valor-estat">0L</span>
+          <span class="rotulo-estat">De água utilizada</span>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="secao-objetivos" class="secao-conteudo">
-      <div class="texto-descritivo">
-        <span class="tag">03 - OBJETIVOS</span>
-        <h2 class="texto-descritivo__titulo">Soluções claras para um problema real.</h2>
 
-        <ul class="objetivos-lista">
-          <li>
-            <span class="objetivos-lista__num">01</span>
-            <div>
-              <h3>Lorem, ipsum dolor.</h3>
-              <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, quaerat!</small>
-            </div>
-          </li>
-          <li>
-            <span class="objetivos-lista__num">02</span>
-            <div>
-              <h3>Lorem, ipsum dolor.</h3>
-              <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
-            </div>
-          </li>
-          <li>
-            <span class="objetivos-lista__num">03</span>
-            <div>
-              <h3>Lorem, ipsum.</h3>
-              <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut!</small>
-            </div>
-          </li>
-        </ul>
-      </div>
+  <!-- ══════════════════════════════════════
+       SEÇÃO 4 — BENEFÍCIOS
+  ══════════════════════════════════════ -->
+  <section id="beneficios">
+    <div class="fundo"></div>
+    <div class="sobreposicao"></div>
+    <div class="degrade-topo"></div>
+    <div class="degrade-base"></div>
+    <div class="conteudo esquerda">
+      <span class="etiqueta">Seção IV — Vantagens</span>
+      <h2>Benefícios</h2>
+      <p class="subtitulo">Do vácuo do espaço para o telhado da sua empresa</p>
 
-      <div class="imagem-ilustrativa">
-        
-        <img src="assets/src/img/objetivos.jpg" alt="COLOCAR ALGO AQUI" class="imagem-ilustrativa__midia" />
-      </div>
-    </section>
+      <div class="grade-beneficios">
 
-    <section id="secao-publico" class="secao-publico-banner">
-      <img src="./assets/src/img/publico-alvo.jpeg" class="publico-fundo" alt="Público-alvo" />
-      <div class="publico-overlay">
-        <div class="publico-conteudo">
-          <span class="tag">04 - PÚBLICO-ALVO</span>
-          <h2 class="publico-titulo">Quem se beneficia da solução?</h2>
-          <p class="publico-descricao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia ratione maxime natus, non repellat.
-          </p>
-          <ul class="publico-tags">
-            <li>Lorem, ipsum.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum</li>
-            <li>Lorem, ipsum</li>
-            <li>Lorem</li>
-            <li>Lorem, ipsum</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="secao-beneficios" class="secao-beneficios">
-      <div class="beneficios__header">
-        <span class="tag">05 - BENEFÍCIOS</span>
-        <h2 class="beneficios__titulo">Mais eficiência, menos desperdício.</h2>
-        <p class="beneficios__intro">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, laudantium voluptatum placeat mollitia explicabo perspiciatis.
-        </p>
-      </div>
-
-      <div class="beneficios-grid">
-        <article class="beneficio-card">
-          <span class="beneficio-card__num">01</span>
-          <h3 class="beneficio-card__titulo">Lorem</h3>
-          <strong class="beneficio-card__valor">+40%</strong>
-          <p class="beneficio-card__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, asperiores.</p>
-        </article>
-
-        <article class="beneficio-card">
-          <span class="beneficio-card__num">02</span>
-          <h3 class="beneficio-card__titulo">Ipsum Dolor</h3>
-          <strong class="beneficio-card__valor">-30%</strong>
-          <p class="beneficio-card__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe.</p>
-        </article>
-
-        <article class="beneficio-card">
-          <span class="beneficio-card__num">03</span>
-          <h3 class="beneficio-card__titulo">Sit Amet</h3>
-          <strong class="beneficio-card__valor">-Água</strong>
-          <p class="beneficio-card__texto">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-        </article>
-
-        <article class="beneficio-card">
-          <span class="beneficio-card__num">04</span>
-          <h3 class="beneficio-card__titulo">Consectetur Adipisicing</h3>
-          <strong class="beneficio-card__valor">+Uso</strong>
-          <p class="beneficio-card__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, provident?</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="secao-aplicacao" class="aplicacao">
-      <div class="aplicacao__header">
-        <span class="aplicacao__tag">06 - APLICAÇÃO</span>
-        <h2 class="aplicacao__titulo">E onde o AES atua?</h2>
-        <p class="aplicacao__subtitulo">
-         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, distinctio?
-        </p>
-      </div>
-
-      <div class="carrossel" data-carrossel>
-        <button class="carrossel__nav carrossel__nav--prev" data-prev aria-label="Anterior">←</button>
-        <button class="carrossel__nav carrossel__nav--next" data-next aria-label="Próximo">→</button>
-
-        <div class="carrossel__track" data-track>
-          <article class="carrossel__slide" style="background-image: url('./assets/src/img/aplicacao-usinas.jpg');">
-            <div class="carrossel__shade"></div>
-            <div class="carrossel__corpo">
-              <span class="carrossel__num">01</span>
-              <h3>Usinas solares</h3>
-              <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio inventore natus sit similique architecto culpa?</small>
-            </div>
-          </article>
-
-          <article class="carrossel__slide" style="background-image: url('./assets/src/img/aplicacao-desertico.jpg');">
-            <div class="carrossel__shade"></div>
-            <div class="carrossel__corpo">
-              <span class="carrossel__num">02</span>
-              <h3>Ambientes desérticos</h3>
-              <small>Maior estabilidade em locais de alta presença de partículas.</small>
-            </div>
-          </article>
-
-          <article class="carrossel__slide" style="background-image: url('./assets/src/img/aplicacao-aeroporto.jpg');">
-            <div class="carrossel__shade"></div>
-            <div class="carrossel__corpo">
-              <span class="carrossel__num">03</span>
-              <h3>Aeroportos</h3>
-              <small>Superfícies limpas e operação mais eficiente em áreas críticas.</small>
-            </div>
-          </article>
-
-          <article class="carrossel__slide" style="background-image: url('./assets/src/img/aplicacao-industria.jpg');">
-            <div class="carrossel__shade"></div>
-            <div class="carrossel__corpo">
-              <span class="carrossel__num">04</span>
-              <h3>Indústrias</h3>
-              <small>Redução de falhas relacionadas à deposição de resíduos.</small>
-            </div>
-          </article>
-
-          <article class="carrossel__slide" style="background-image: url('./assets/src/img/aplicacao-gestores.jpg');">
-            <div class="carrossel__shade"></div>
-            <div class="carrossel__corpo">
-              <span class="carrossel__num">05</span>
-              <h3>Gestores técnicos</h3>
-              <small>Controle e previsibilidade na operação de ativos expostos.</small>
-            </div>
-          </article>
-
-          <article class="carrossel__slide" style="background-image: url('./assets/src/img/aplicacao-offshore.jpg');">
-            <div class="carrossel__shade"></div>
-            <div class="carrossel__corpo">
-              <span class="carrossel__num">06</span>
-              <h3>Estruturas offshore</h3>
-              <small>Aplicação em locais severos com necessidade de alta confiabilidade.</small>
-            </div>
-          </article>
+        <div class="cartao-beneficio">
+          <svg class="icone-beneficio" viewBox="0 0 24 24">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+          </svg>
+          <h4 class="titulo-beneficio">Geração maximizada</h4>
+          <span class="corpo-beneficio">Painéis livres de poeira aumentam a eficiência energética em até 30%, garantindo máximo aproveitamento da irradiação solar ao longo do ano.</span>
         </div>
 
-        <div class="carrossel__indicadores" data-indicadores></div>
+        <div class="cartao-beneficio">
+          <svg class="icone-beneficio" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            <line x1="2" y1="12" x2="22" y2="12"/>
+          </svg>
+          <h4 class="titulo-beneficio">Do Espaço.</h4>
+          <span class="corpo-beneficio">Tecnologia validada pela NASA para ambientes extremos. O AES foi testado em missões reais antes de ser adaptado para aplicações terrestres.</span>
+        </div>
+
+        <div class="cartao-beneficio">
+          <svg class="icone-beneficio" viewBox="0 0 24 24">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          <h4 class="titulo-beneficio">Manutenção? Jamais</h4>
+          <span class="corpo-beneficio">Elimina limpezas periódicas, reduzindo em média 80% dos custos operacionais associados à manutenção de painéis solares.</span>
+        </div>
+
+        <div class="cartao-beneficio">
+          <svg class="icone-beneficio" viewBox="0 0 24 24">
+            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+          </svg>
+          <h4 class="titulo-beneficio">Zero uso de água</h4>
+          <span class="corpo-beneficio">O processo eletrostático dispensa qualquer consumo hídrico, preservando recursos em regiões áridas onde a energia solar é mais abundante.</span>
+        </div>
+
+        <div class="cartao-beneficio">
+          <svg class="icone-beneficio" viewBox="0 0 24 24">
+            <rect x="2" y="3" width="20" height="14" rx="2"/>
+            <line x1="8" y1="21" x2="16" y2="21"/>
+            <line x1="12" y1="17" x2="12" y2="21"/>
+          </svg>
+          <h4 class="titulo-beneficio">Durabilidade</h4>
+          <span class="corpo-beneficio">Componentes com vida útil superior a 25 anos, compatíveis com os principais fabricantes de painéis fotovoltaicos do mercado.</span>
+        </div>
+
+        <div class="cartao-beneficio">
+          <svg class="icone-beneficio" viewBox="0 0 24 24">
+            <line x1="12" y1="1" x2="12" y2="23"/>
+            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+          </svg>
+          <h4 class="titulo-beneficio">ROI Acelerado</h4>
+          <span class="corpo-beneficio">Retorno do investimento até 40% mais rápido em comparação com sistemas convencionais, graças ao aumento contínuo de geração.</span>
+        </div>
+
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="secao-equipe" class="secao-equipe">
-      <div class="equipe__header">
-        <span class="equipe__tag">07 - NOSSA EQUIPE</span>
-        <h2 class="equipe__titulo">Conheça a Atom.</h2>
-        <p class="equipe__subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, itaque!</p>
-      </div>
 
-      <div class="equipe-grid-nova">
-        <article class="membro-card">
-          <div class="membro-card__foto">G</div>
-          <div class="membro-card__info">
-            <div class="membro-card__header">
-              <h3>Gabriel</h3>
-              <span>Back-End Developer</span>
-              <div class="membro-card__icon">✦</div>
-            </div>
-            <p class="membro-card__bio">Engenheiro de Software profissional no ecossistema .NET</p>
+  <!-- ══════════════════════════════════════
+       SEÇÃO 5 — APLICAÇÃO 
+  ══════════════════════════════════════ -->
+  <section id="aplicacao">
+    <div class="fundo"></div>
+    <div class="sobreposicao"></div>
+    <div class="degrade-topo"></div>
+    <div class="degrade-base"></div>
+    <div class="conteudo esquerda">
+      <span class="etiqueta">Seção V — Aplicações</span>
+      <h2>E onde usar...?</h2>
+      <p class="subtitulo">Soluções aplicadas a cada contexto.</p>
+      <p class="texto-corpo">Do telhado residencial à fazenda solar de megawatts, o AES se adapta a qualquer escala de instalação fotovoltaica - sempre sem água, sem manutenção e sem comprometer a geração.</p>
+
+      <div class="envoltura-carrossel">
+        <div class="cartao-carrossel" id="car-cartao">
+          <div class="envoltura-img-slide">
+            <img id="car-img" src="" alt="" />
+            <div class="degrade-img-slide"></div>
+            <span class="emblema-slide" id="car-emblema"></span>
           </div>
-        </article>
-
-        <article class="membro-card">
-          <div class="membro-card__foto">K</div>
-          <div class="membro-card__info">
-            <div class="membro-card__header">
-              <h3>Kaue</h3>
-              <span>Lorem ipsum dolor sit amet.</span>
-              <div class="membro-card__icon">✦</div>
-            </div>
-            <p class="membro-card__bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, a?</p>
+          <div class="texto-slide">
+            <h3 class="titulo-slide" id="car-titulo"></h3>
+            <span class="corpo-slide" id="car-corpo"></span>
           </div>
-        </article>
+        </div>
 
-        <article class="membro-card">
-          <div class="membro-card__foto">D</div>
-          <div class="membro-card__info">
-            <div class="membro-card__header">
-              <h3>Diego</h3>
-              <span>Lorem ipsum dolor sit amet.</span>
-              <div class="membro-card__icon">✦</div>
-            </div>
-            <p class="membro-card__bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </div>
-        </article>
-
-        <article class="membro-card">
-          <div class="membro-card__foto">R</div>
-          <div class="membro-card__info">
-            <div class="membro-card__header">
-              <h3>Roberto</h3>
-              <span>Lorem, ipsum dolor.</span>
-              <div class="membro-card__icon">✦</div>
-            </div>
-            <p class="membro-card__bio">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="secao-cta-final" id="secao-cta-final">
-      <div class="cta-final-detalhe cta-final-detalhe--top-left">✦</div>
-      <div class="cta-final-detalhe cta-final-detalhe--bottom-left">✦</div>
-      <div class="cta-final-detalhe cta-final-detalhe--top-right">✦</div>
-
-      <div class="secao-cta-final__overlay">
-        <div class="secao-cta-final__conteudo">
-          <span class="secao-cta-final__subtitulo">Diretamente do espaço para a Terra</span>
-          <h2 class="secao-cta-final__titulo">Faça parte do futuro<br /><strong>Faça parte da Atom</strong></h2>
-          <a href="#rodape" class="secao-cta-final__botao">Apenas um clique</a>
+        <div class="controles-carrossel">
+          <button class="btn-car" id="car-anterior" aria-label="Anterior">
+            <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <div class="pontos-car" id="car-pontos"></div>
+          <button class="btn-car" id="car-proximo" aria-label="Próximo">
+            <svg viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+          <span class="contagem-car" id="car-contagem"></span>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-  </main>
 
-  <footer id="rodape" class="rodape">
-    <address class="rodape__texto">Global Solution Front-End</address>
-    <strong class="rodape__texto">Desenvolvido por</strong>
-    <cite class="rodape__texto">Gabriel - RM 573690 | Kaue - RM 571192 | Diego - RM 569129 | Roberto - RM 566716</cite>
-    <small class="rodape__texto">2026 Todos os direitos reservados.</small>
+  <!-- ══════════════════════════════════════
+       SEÇÃO 6 — PÚBLICO
+  ══════════════════════════════════════ -->
+  <section id="publico">
+    <div class="fundo"></div>
+    <div class="sobreposicao"></div>
+    <div class="degrade-topo"></div>
+    <div class="degrade-base"></div>
+    <div class="conteudo direita">
+      <span class="etiqueta">Seção VI — Para quem?</span>
+      <h2>Público</h2>
+      <p class="subtitulo">E quem se beneficia?</p>
+      <div class="divisor"></div>
+      <p class="texto-corpo">O AES foi desenvolvido para geradoras de energia, integradoras solares, proprietários de usinas fotovoltaicas e empresas com grandes coberturas industriais. Qualquer instalação que sofra com a degradação de desempenho por poeira, fuligem ou particulados atmosféricos encontra no AES uma solução comprovada e escalável.</p>
+      <div class="estatisticas">
+        <div>
+          <span class="valor-estat">B2B</span>
+          <span class="rotulo-estat">Foco principal</span>
+        </div>
+        <div>
+          <span class="valor-estat">3</span>
+          <span class="rotulo-estat">Segmentos atendidos</span>
+        </div>
+        <div>
+          <span class="valor-estat">BR+</span>
+          <span class="rotulo-estat">Expansão regional</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════
+       SEÇÃO 7 — EQUIPE
+  ══════════════════════════════════════ -->
+  <section id="equipe">
+    <div class="fundo"></div>
+    <div class="sobreposicao"></div>
+    <div class="degrade-topo"></div>
+    <div class="degrade-base"></div>
+    <div class="conteudo esquerda">
+      <span class="etiqueta">Seção VII — A ATOM</span>
+      <h2>Equipe</h2>
+      <p class="subtitulo">De Engenheiros para Engenheiros.</p>
+
+      <div class="grade-equipe">
+
+        <div class="cartao-membro">
+          <img src="#" alt="Gabriel Almeida" />
+          <div class="faixa-membro">
+            <span class="nome-membro">Gabriel Almeida</span>
+            <span class="funcao-membro">C#, Java & Kotlin Engineer</span>
+          </div>
+          <div class="hover-membro">
+            <h4 class="hover-nome">GABRIEL ALMEIDA</h4>
+            <span class="hover-funcao">C#, Java & Kotlin Engineer</span>
+            <div class="hover-linha"></div>
+            <span class="hover-bio">Graduando em Engenharia de Software na FIAP, detém grande conhecimento no ecossistema .NET, Java e Kotlin. Nesse projeto, foi parte essencial no desenvolvimento desse site.</span>
+          </div>
+        </div>
+
+        <div class="cartao-membro">
+          <img src="#" alt="Roberto Dantas" />
+          <div class="faixa-membro">
+            <span class="nome-membro">Roberto Dantas</span>
+            <span class="funcao-membro">C# & PYTHON ENGINEER</span>
+          </div>
+          <div class="hover-membro">
+            <h4 class="hover-nome">Roberto Dantas</h4>
+            <span class="hover-funcao">C# & Python</span>
+            <div class="hover-linha"></div>
+            <span class="hover-bio">Especializado no sistema .NET e tecnologias Front-End, foi parte fundamental da equipe na idealização de design, como este site.</span>
+          </div>
+        </div>
+
+        <div class="cartao-membro">
+          <img src="#" alt="Diego Rayham" />
+          <div class="faixa-membro">
+            <span class="nome-membro">Diego Rayham</span>
+            <span class="funcao-membro">KOTLIN & JAVA ENGINEER</span>
+          </div>
+          <div class="hover-membro">
+            <h4 class="hover-nome">Diego Rayham</h4>
+            <span class="hover-funcao">ENGENHEIRO ESPECIALIZADO EM KOTLIN</span>
+            <div class="hover-linha"></div>
+            <span class="hover-bio">Graduando em Engenharia de Software pela FIAP, é parte fundamental da equipe de Kotlin, tendo ampla experiência em tais linguagens.</span>
+          </div>
+        </div>
+
+        <div class="cartao-membro">
+          <img src="#" alt="Kaue Tsuyoshi" />
+          <div class="faixa-membro">
+            <span class="nome-membro">Kaue Tsuyoshi</span>
+            <span class="funcao-membro">PYTHON ENGINEER</span>
+          </div>
+          <div class="hover-membro">
+            <h4 class="hover-nome">Kaue Tsuyoshi</h4>
+            <span class="hover-funcao">PYTHON ENGINEER</span>
+            <div class="hover-linha"></div>
+            <span class="hover-bio">Engenheiro especializado em sistemas embarcados e Python. É fundamental no desenvolvimento de projetos com IA e consumo de dados.</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════
+       ATOM (FINALIZANDO)
+  ══════════════════════════════════════ -->
+  <section id="cta">
+    <div class="fundo"></div>
+    <div class="sobreposicao"></div>
+    <div class="degrade-topo"></div>
+    <div class="conteudo-cta">
+      <span class="etiqueta-cta">Diretamente do espaço para a Terra</span>
+      <h2 class="titulo-cta">Faça parte do futuro<br>Faça parte da Atom</h2>
+      <a href="#" class="botao-cta">Apenas um clique</a>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════
+       RODAPE/FOOTER
+  ══════════════════════════════════════ -->
+  <footer>
+    <div class="logo-rodape">Atom</div>
+    <p class="sub-rodape">Do espaço para a Terra — AES</p>
   </footer>
 
-  <script>
-    function initCarrossel() {
-      const root = document.querySelector('[data-carrossel]');
-      if (!root) return;
-
-      const track = root.querySelector('[data-track]');
-      const slides = Array.from(track.children);
-      const prev = root.querySelector('[data-prev]');
-      const next = root.querySelector('[data-next]');
-      const indWrap = root.querySelector('[data-indicadores]');
-
-      let index = 0;
-      let isProgrammatic = false;
-      let autoplayId = null;
-
-      slides.forEach((slide, i) => {
-        const b = document.createElement('button');
-        b.className = 'carrossel__dot';
-        b.setAttribute('aria-label', `Ir para slide ${i + 1}`);
-        b.addEventListener('click', () => go(i));
-        indWrap.appendChild(b);
-      });
-
-      const dots = Array.from(indWrap.children);
-
-      function updateDots() {
-        dots.forEach((d, k) => d.classList.toggle('is-active', k === index));
-      }
-
-      function go(i) {
-        index = (i + slides.length) % slides.length;
-        const slide = slides[index];
-        isProgrammatic = true;
-        track.scrollTo({ left: slide.offsetLeft - track.offsetLeft, behavior: 'smooth' });
-        updateDots();
-        setTimeout(() => { isProgrammatic = false; }, 600);
-      }
-
-      prev.addEventListener('click', () => go(index - 1));
-      next.addEventListener('click', () => go(index + 1));
-
-      let t;
-      track.addEventListener('scroll', () => {
-        if (isProgrammatic) return;
-        clearTimeout(t);
-        t = setTimeout(() => {
-          const x = track.scrollLeft;
-          let closest = 0, min = Infinity;
-          slides.forEach((s, i) => {
-            const d = Math.abs((s.offsetLeft - track.offsetLeft) - x);
-            if (d < min) { min = d; closest = i; }
-          });
-          index = closest;
-          updateDots();
-        }, 90);
-      });
-
-      function startAuto() {
-        autoplayId = setInterval(() => go(index + 1), 5000);
-      }
-
-      function restartAuto() {
-        if (autoplayId) clearInterval(autoplayId);
-        startAuto();
-      }
-
-      root.addEventListener('mouseenter', () => clearInterval(autoplayId));
-      root.addEventListener('mouseleave', restartAuto);
-
-      go(0);
-      startAuto();
-    }
-
-    initCarrossel();
-  </script>
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>
