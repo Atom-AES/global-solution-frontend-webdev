@@ -32,7 +32,10 @@ nav {
   align-items: center;
   gap: 0.1rem;
   padding: 0.45rem 0.7rem;
-  background: transparent;
+    background: rgba(3, 5, 15, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   border-radius: 9999px;
   white-space: nowrap;
 }
