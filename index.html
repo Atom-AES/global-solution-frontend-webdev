@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Atom — HOME</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/quiz.css" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
-<body>
+<body data-tema="cosmos">
 
   <!-- ══════════════════════════════════════
        NAVBAR
@@ -23,7 +24,8 @@
       <li><a href="#publico">Público</a></li>
       <li><a href="#equipe">Equipe</a></li>
     </ul>
-    <a href="#cta" class="nav-cta">Saiba mais</a>
+    <!-- ALTERADO: "Saiba mais" → "Fale conosco" apontando para contato.html -->
+    <a href="./assets/pages/contato.html" class="nav-cta">Fale conosco</a>
   </nav>
 
 
@@ -255,9 +257,8 @@
     </div>
   </section>
 
-
   <!-- ══════════════════════════════════════
-       SEÇÃO 7 — EQUIPE
+       SEÇÃO 9 — EQUIPE
   ══════════════════════════════════════ -->
   <section id="equipe">
     <div class="fundo"></div>
@@ -265,7 +266,7 @@
     <div class="degrade-topo"></div>
     <div class="degrade-base"></div>
     <div class="conteudo esquerda">
-      <span class="etiqueta">Seção VII — A ATOM</span>
+      <span class="etiqueta">Seção IX — A ATOM</span>
       <h2>Equipe</h2>
       <p class="subtitulo">De Engenheiros para Engenheiros.</p>
 
@@ -341,8 +342,8 @@
     <div class="degrade-topo"></div>
     <div class="conteudo-cta">
       <span class="etiqueta-cta">Diretamente do espaço para a Terra</span>
-      <h2 class="titulo-cta">Faça parte do futuro<br>Faça parte da Atom</h2>
-      <a href="#" class="botao-cta">Apenas um clique</a>
+      <h2 class="titulo-cta">Faça o futuro<br>Faça com a Atom</h2>
+      <a href="./assets/pages/contato.html" class="botao-cta">Fale conosco</a>
     </div>
   </section>
 
@@ -357,5 +358,6 @@
   </footer>
 
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/quiz.js"></script>
 </body>
 </html>

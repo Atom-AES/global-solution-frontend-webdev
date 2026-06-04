@@ -76,6 +76,7 @@ nav {
   color: #fff;
 }
 
+/* ALTERADO: nav-cta agora diz "Fale conosco" e aponta para contato.html */
 .nav-cta {
   display: block;
   margin-left: 0.4rem;
@@ -460,6 +461,40 @@ section {
   color: rgba(138,154,184,0.55);
 }
 
+/* ── BOTÃO IR PARA CONTATO (seção #contato do index) ── */
+.btn-ir-contato {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 2rem;
+  background: rgba(0,200,255,0.08);
+  border: 1px solid rgba(0,200,255,0.28);
+  border-radius: 9999px;
+  padding: 0.85rem 2.2rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ciano);
+  text-decoration: none;
+  transition: background 0.25s, border-color 0.25s;
+}
+
+.btn-ir-contato:hover {
+  background: rgba(0,200,255,0.16);
+  border-color: rgba(0,200,255,0.45);
+}
+
+.btn-ir-contato svg {
+  width: 18px;
+  height: 18px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  flex-shrink: 0;
+}
+
 /* ── FORMATAÇÃO DA EQUIPE (CUIDADO AO MEXER AQUI) ── */
 .grade-equipe {
   display: grid;
@@ -625,6 +660,7 @@ section {
   letter-spacing: -0.01em;
 }
 
+/* ALTERADO: botão do CTA agora diz "Fale conosco" */
 .botao-cta {
   display: inline-block;
   background: rgba(255,255,255,0.09);

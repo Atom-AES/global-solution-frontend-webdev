@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atom — Fale Conosco & Quiz</title>
+  <link rel="stylesheet" href="../css/interacao.css">k
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body data-tema="cosmos">
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="../../index.html" class="nav-logo">Atom</a>
+    <a href="../../index.html" class="nav-link">← Voltar</a>
+    <a href="#form" class="nav-link">Contato</a>
+    <a href="#quiz-tab" class="nav-link">Quiz</a>
+
+    <div class="tema-seletor">
+      <span class="tema-label">Tema</span>
+      <button class="tema-btn ativo" data-tema="cosmos" title="Cosmos" aria-label="Tema Cosmos"></button>
+      <button class="tema-btn" data-tema="aurora" title="Aurora" aria-label="Tema Aurora"></button>
+      <button class="tema-btn" data-tema="solar" title="Solar" aria-label="Tema Solar"></button>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <span class="hero-etiqueta">Atom — Interação</span>
+    <h1>Fale Conosco<br>&amp; Teste-se</h1>
+    <p>Entre em contato com nossa equipe ou prove quanto você sabe sobre energia solar e o AES.</p>
+  </div>
+
+  <!-- ABAS -->
+  <div class="tabs-wrapper">
+    <div class="tabs" role="tablist">
+      <button class="tab-btn ativo" data-tab="contato" role="tab" aria-selected="true">Formulário de Contato</button>
+      <button class="tab-btn" data-tab="quiz" role="tab" aria-selected="false">Quiz AES</button>
+    </div>
+  </div>
+
+  <!-- CONTATO -->
+  <div class="painel ativo" id="painel-contato">
+    <p class="form-titulo">Contato</p>
+    <p class="form-subtitulo">Pronto para proteger sua usina?</p>
+
+    <form id="form-contato" novalidate>
+
+      <div class="linha-dupla">
+        <div class="campo-form">
+          <label for="f-nome">Nome completo *</label>
+          <input type="text" id="f-nome" name="nome" placeholder="Ex.: João Silva" autocomplete="name" />
+          <span class="msg-erro" id="err-nome"></span>
+        </div>
+        <div class="campo-form">
+          <label for="f-email">E-mail corporativo *</label>
+          <input type="email" id="f-email" name="email" placeholder="joao@empresa.com" autocomplete="email" />
+          <span class="msg-erro" id="err-email"></span>
+        </div>
+      </div>
+
+      <div class="linha-dupla">
+        <div class="campo-form">
+          <label for="f-empresa">Empresa</label>
+          <input type="text" id="f-empresa" name="empresa" placeholder="Nome da empresa (opcional)" />
+          <span class="msg-erro" id="err-empresa"></span>
+        </div>
+        <div class="campo-form">
+          <label for="f-segmento">Segmento *</label>
+          <select id="f-segmento" name="segmento">
+            <option value="">Selecione...</option>
+            <option value="geradora">Geradora de Energia</option>
+            <option value="integradora">Integradora Solar</option>
+            <option value="industrial">Industrial / Cobertura</option>
+            <option value="agro">Agrovoltaico</option>
+            <option value="residencial">Residencial</option>
+            <option value="outro">Outro</option>
+          </select>
+          <span class="msg-erro" id="err-segmento"></span>
+        </div>
+      </div>
+
+      <div class="campo-form">
+        <label for="f-mensagem">Mensagem *</label>
+        <textarea id="f-mensagem" name="mensagem" rows="5" placeholder="Descreva sua instalação e o que você precisa..."></textarea>
+        <span class="msg-erro" id="err-mensagem"></span>
+      </div>
+
+      <button type="submit" class="btn-enviar">
+        <span>Enviar mensagem</span>
+        <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+
+      <div class="alerta-sucesso" id="alerta-sucesso">
+        <svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        <span>Mensagem enviada com sucesso! Retornaremos em até 48 horas.</span>
+      </div>
+
+    </form>
+  </div>
+
+  <!-- QUIZ -->
+  <div class="painel" id="painel-quiz">
+    <p class="quiz-titulo">Quiz AES</p>
+    <p class="quiz-subtitulo">Quanto você sabe sobre energia solar e o Adaptative Electrodynamic Shield?</p>
+
+    <div id="bloco-quiz">
+      <div class="barra-prog">
+        <div class="barra-prog-inner" id="prog-inner" style="width:0%"></div>
+      </div>
+
+      <div class="quiz-contador">
+        <span class="quiz-num" id="quiz-num">Pergunta 01 de 10</span>
+        <span class="quiz-pontos" id="quiz-pontos">0 acertos</span>
+      </div>
+
+      <div class="card-pergunta">
+        <p class="enunciado" id="enunciado"></p>
+        <ul class="lista-opcoes" id="lista-opcoes"></ul>
+        <p class="feedback-quiz" id="feedback-quiz"></p>
+      </div>
+
+      <button class="btn-proximo" id="btn-proximo">
+        <span>Próxima</span>
+        <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+
+    <!-- RESULTADO -->
+    <div class="resultado-quiz" id="resultado-quiz">
+      <div class="resultado-icone" id="res-icone"></div>
+      <p class="resultado-nota" id="res-nota"></p>
+      <h3 class="resultado-titulo" id="res-titulo"></h3>
+      <p class="resultado-desc" id="res-desc"></p>
+      <div class="barra-acerto">
+        <div class="barra-acerto-inner" id="barra-acerto-inner" style="width:0%"></div>
+      </div>
+      <button class="btn-refazer" id="btn-refazer">
+        <svg viewBox="0 0 24 24"><path d="M1 4v6h6M23 20v-6h-6"/><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/></svg>
+        <span>Tentar Novamente</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <div class="logo-rodape">Atom</div>
+    <p class="sub-rodape">Do espaço para a Terra — AES</p>
+    <p class="sub-rodape">© 2026 Atom. Todos os direitos reservados.</p>
+  </footer>
+<script src="../js/quiz.js"></script>
+</body>
+</html>
