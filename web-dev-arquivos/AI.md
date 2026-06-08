@@ -1,2 +1,2 @@
 # Disciplina de Web-Dev.
-<p> O projeto, feito com fins acadêmicos, teve a utilização de IA apenas para revisão do código, garantindo qualidade e visando menos erros possíveis. O processo de construção inteiro da aplicação web foi idealizada e estruturada pelos integrantes do time Atom.</p>
+<p> Esta aplicação web foi desenvolvida integralmente pelos integrantes da equipe Atom, responsáveis por toda a concepção, estruturação e implementação do código. O uso de Inteligência Artificial restringiu-se exclusivamente à revisão técnica, com o objetivo de aprimorar a qualidade do código e minimizar a ocorrência de erros. Mais uma vez, toda a estrutura e todo o código foi feito de forma humana. Apenas aderimos as revisões que foram recomendadas. </p>
