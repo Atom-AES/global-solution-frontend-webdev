@@ -1,2 +1,2 @@
-Repositório Github: https://github.com/panicq-dev/global-solution-frontend-webdev.git
-GitHub Pages: https://panicq-dev.github.io/global-solution-frontend-webdev/
+Repositório Github: https://github.com/Atom-AES/global-solution-frontend-webdev.git
+GitHub Pages: https://atom-aes.github.io/global-solution-frontend-webdev/
