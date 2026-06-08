@@ -14,7 +14,7 @@ O site foi pensado como um produto real, com atenção à experiência do usuár
 
 ---
 
-## Estrutura do Projeto
+## Estrutura NECESSÁRIA para o projeto
 
 ```
 projeto/
