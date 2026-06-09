@@ -1,8 +1,6 @@
-|---------------------------------|
-|     NOME        |       RM      |
-|---------------------------------|
-|    Gabriel      |     573690    |
-|     Kaue        |     571192    |
-|     Diego       |     569129    |
-|    Roberto      |     566716    |
-|---------------------------------|
+NOME                            RM
+---------------------------------------
+Gabriel Almeida dos Santos      573690
+Kaue Tsuyoshi Horoiwa           571192
+Diego Rayhan Jalhium Machado    569129
+Roberto Dantas Melo Filho       566716
