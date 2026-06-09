@@ -1,2 +1,3 @@
 # Disciplina de Web-Dev.
 <p> Esta aplicação web foi desenvolvida integralmente pelos integrantes da equipe Atom, responsáveis por toda a concepção, estruturação e implementação do código. O uso de Inteligência Artificial restringiu-se exclusivamente à revisão técnica, com o objetivo de aprimorar a qualidade do código e minimizar a ocorrência de erros. Mais uma vez, toda a estrutura e todo o código foi feito de forma humana. Apenas aderimos as revisões que foram recomendadas. </p>
+<p>Exemplos de alterações com IA: revisão do código, alteração dos nomes das variáveis de forma a ficar mais entendível (faltava criatividade) e perguntas lógicas, para verificar se estávamos no caminho certo</p>
